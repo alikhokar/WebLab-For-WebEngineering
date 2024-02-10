@@ -1,0 +1,140 @@
+
+.button{
+    background-color: beige;
+    text-size-adjust: 10px;
+   
+    
+}
+.button:hover{
+    color: blue;
+    margin: 5px;
+    padding: 5px;
+}
+a:active{
+    background-color: black;
+}
+a::selection{
+background-color:pink;
+}
+a:visited{
+    background-color:blue;
+}
+div a:first-child{
+    border-radius: 20px;
+    background-color:aqua
+}
+
+.parent{
+    position: relative;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 0cap solid;
+}
+.child{
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border: 0cap solid;
+}
+
+.myicon {
+    width: 40px;
+    height: 40px;
+}
+.myicon:hover{
+    width: 100px;
+    height: 100px;
+}
+.fixedArea{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    overflow: scroll;
+
+}
+.circle1{
+    border-radius: 50%;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+.circle2{
+    border-radius: 50%;
+    background-color:black;
+    height: 100px;
+    width: 100px;
+}
+.circle3{
+
+    border-radius: 50%;
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+}
+.circle4{
+
+    border-radius: 50%;
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+}
+.circle5{
+
+    border-radius: 50%;
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+}
+.circle6{
+
+    border-radius: 50%;
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+}
+.circle7{
+
+    border-radius: 50%;
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+}
+.circle8{
+
+    border-radius: 50%;
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+}
+.circle9{
+
+    border-radius: 50%;
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+}
+.circle10{
+
+    border-radius: 50%;
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+}
+.circle11{
+
+    border-radius: 50%;
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    height: 100vh;
+    gap: 10px;
+    flex-direction: column;
+}
