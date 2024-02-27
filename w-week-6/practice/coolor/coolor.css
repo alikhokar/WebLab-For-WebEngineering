@@ -1,0 +1,14 @@
+#plusButton{
+    align-items: center;
+}
+.colorBox{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: dodgerblue; */
+}
+#container{
+    display:flex;
+    height: 200;
+}
