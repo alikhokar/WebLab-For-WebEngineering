@@ -1,0 +1,12 @@
+.ball{
+    height: 100px;
+    width: 100px;
+    background:dodgerblue;
+    margin: 10px;
+}
+#container{
+    display:flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 200;
+}
