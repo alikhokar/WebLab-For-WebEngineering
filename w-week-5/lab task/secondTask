@@ -1,0 +1,7 @@
+const car={brand:"Toyata",model: "Rav4", year:2024};
+var info=""
+function displayCar(car){
+    return(`The ${car.brand} ${car.model} was produced in ${car.year}`);
+}
+info=displayCar(car)
+console.log(info)
