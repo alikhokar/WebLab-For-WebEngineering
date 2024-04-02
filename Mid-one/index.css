@@ -1,1 +1,52 @@
+.slider-img1 {
+  position: relative;
+  width: 30%;
+  margin: 0 auto;
+}
 
+.simg {
+  display: none;
+  max-width: 50%;
+  height: auto;
+}
+
+.active {
+  display: inline;
+}
+
+button {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  background-color:darkblue;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnail {
+  width: 80px;
+  height: 90px;
+  margin: 0 5px;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.active-thumbnail {
+  opacity: 3;
+}
